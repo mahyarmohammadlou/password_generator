@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/assets">
+        <file>assets/background.png</file>
+    </qresource>
+
+    <qresource prefix="/assets">
+        <file>assets/eye-open.png</file>
+        <file>assets/eye-closed.png</file>
+        <file>assets/copy.png</file>
+    </qresource>
+</RCC>
