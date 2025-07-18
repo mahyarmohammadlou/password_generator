@@ -34,7 +34,7 @@ password_generator/
 Installation
 
 Clone the Repository:
-git clone https://github.com/mahyarmohammadlou/password-generator.git
+git clone https://github.com/mahyarmohammadlou/password_generator.git
 cd password_generator
 
 

@@ -12,8 +12,9 @@ import zxcvbn
 class UI(QMainWindow):
     def __init__(self):
         super(UI, self).__init__()
-        ui_path = os.path.join(os.path.dirname(__file__), 'ui', 'password_generator.ui')
-        uic.loadUi("ui_patch", self)
+        ui_path = os.path.join(os.path.dirname(__file__), '..', 'ui', 'password_generator.ui')
+        ui_path = os.path.abspath(ui_path)
+        uic.loadUi(ui_path, self)
 
         # Add Widgets
         self.eyeBtn = self.findChild(QPushButton, "eyeBtn")
